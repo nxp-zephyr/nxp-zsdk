@@ -1,3 +1,4 @@
+name: zsdk
 build:
   cmake: .
   kconfig: Kconfig.nxp
