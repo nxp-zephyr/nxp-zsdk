@@ -122,6 +122,9 @@ version_list = [
     (v, version_url_template.format(version=v)) for v in versions_data
 ]
 
+docgen_branch = os.getenv("DOCGEN_BRANCH")
+docgen_rev = os.getenv("DOCGEN_REV")
+
 html_context = {
     "show_license": True,
     "docs_title": "NXP Zephyr Project",
@@ -131,6 +134,8 @@ html_context = {
     "docsets": utils.ALL_DOCSETS,
     "current_version": versions_data[0],
     "versions": tuple(version_list),
+    "branch_info": docgen_branch,
+    "rev_info": docgen_rev,
 }
 
 # -- Intersphinx ---------------------------------------------------------------

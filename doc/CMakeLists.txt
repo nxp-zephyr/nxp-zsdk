@@ -54,6 +54,9 @@ file(MAKE_DIRECTORY ${KCONFIG_BINARY_DIR})
 set(DOCSET_DEPENDENCIES_zsdk "zephyr-all")
 set(DOCSET_DEPENDENCIES_zephyr "zephyr-devicetree")
 
+message(STATUS "Generation branch: ${DOCGEN_BRANCH}")
+message(STATUS "Generation revision: ${DOCGEN_REV}")
+
 #-------------------------------------------------------------------------------
 # Functions
 
@@ -121,7 +124,7 @@ function(add_docset name version)
   set(DOCSET_LINKCHECK_DIR ${CMAKE_BINARY_DIR}/linkcheck/${name})
   set(DOCSET_MAKE_DIRS ${DOCSET_BUILD_DIR};${DOCSET_SRC_DIR};${DOCSET_HTML_DIR})
   set(DOCSET_CLEAN_DIRS ${DOCSET_BUILD_DIR};${DOCSET_HTML_DIR})
-  set(DOCSET_ENV DOXYGEN_EXECUTABLE=${DOXYGEN_EXECUTABLE};DOCSET_VERSION=${version};DOCS_HTML_DIR=${DOCSET_HTML_DIR})
+  set(DOCSET_ENV DOXYGEN_EXECUTABLE=${DOXYGEN_EXECUTABLE};DOCSET_VERSION=${version};DOCS_HTML_DIR=${DOCSET_HTML_DIR}; DOCGEN_BRANCH=${DOCGEN_BRANCH};DOCGEN_REV=${DOCGEN_REV})
 
   if(${DOCSET_DODGY})
     list(REMOVE_ITEM SPHINXOPTS "-W" "--keep-going")
