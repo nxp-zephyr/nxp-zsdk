@@ -58,7 +58,7 @@ Replace sduartIW416\_wlan\_bt.bin to sdIW416\_wlan.bin in ~/zephyrproject/module
 Step 2 - Build the application.
 
 ```
-cd ~/zephyrproject/zsdk
+cd ~/zephyrproject
 west build -b mimxrt1060_evk@C --shield nxp_m2_1xk_wifi_bt samples/wireless/coex/shell -d coex --pristine -- -DEXTRA_CONF_FILE="overlay-wifi-nxp-hosted-mcu.conf"
 ```
 

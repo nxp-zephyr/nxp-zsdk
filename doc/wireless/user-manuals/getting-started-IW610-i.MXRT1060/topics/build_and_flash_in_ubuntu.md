@@ -50,7 +50,7 @@ This section shows how to compile the Coexistence shell example.
 Step 1 - Build the application.
 
 ```
-cd ~/zephyrproject/zsdk
+cd ~/zephyrproject
 west build -p always -b mimxrt1060_evk@C --shield nxp_m2_2ll_wifi_bt samples/wireless/coex/shell -d
 coex_wifi_shell -DEXTRA_CONF_FILE="overlay-wifi-nxp-iw610.conf overlay-wifi-nxp-hostap-hosted-mcu.conf"
 ```

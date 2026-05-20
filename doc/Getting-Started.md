@@ -1,4 +1,6 @@
-To learn more about NXP’s downstream ecosystem, see [Introduction to ZSDK Downstream](Introduction-to-ZSDK-Downstream.md).
+To learn more about NXP's downstream ecosystem, see [Introduction to NXP Zephyr Downstream](Introduction-to-ZSDK-Downstream.md).
+
+Terminology note: this documentation uses "NXP Zephyr downstream" for NXP's downstream repositories and releases. 
 
 Two options to get started are included here.  NXP provides the [MCUXPresso extension](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-for-visual-studio-code:MCUXPRESSO-VSC?tid=vanMCUXPRESSO-VSC) for Visual Studio Code (VS Code).  This option is the quickest option to: learn Zephyr when using NXP, import the required repos, build sample applications, download to NXP development boards, and debug.  Another option popular with Zephyr users is developing from Command Line Interface (CLI).
 

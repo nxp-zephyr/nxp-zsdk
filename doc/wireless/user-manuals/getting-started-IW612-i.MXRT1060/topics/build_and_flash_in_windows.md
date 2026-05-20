@@ -58,7 +58,7 @@ Replace sduart\_nw61x.bin.se to sd\_nw61x.bin.se in %HOMEPATH%/zephyrproject/mod
 Step 2 - Build the application.
 
 ```
-cd %HOMEPATH%\zephyrproject\zsdk
+cd %HOMEPATH%\zephyrproject
 west build -b mimxrt1060_evk@C --shield nxp_m2_2el_wifi_bt samples/wireless/coex/shell -d coex --pristine -- -DEXTRA_CONF_FILE="overlay-wifi-nxp-hosted-mcu.conf"
 ```
 

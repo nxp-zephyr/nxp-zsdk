@@ -59,7 +59,7 @@ This section shows how to compile the Coexistence shell example.
 Step 1 - Build the application.
 
 ```
-cd %HOMEPATH%\zephyrproject\zsdk
+cd %HOMEPATH%\zephyrproject
 west build -b rd_rw612_bga samples/wireless/coex/shell -d coex_shell -c -- -DCONF_FILE="prj.conf overlay-wifi-nxp.conf overlay-wifi-nxp-hostap.conf"
 ```
 

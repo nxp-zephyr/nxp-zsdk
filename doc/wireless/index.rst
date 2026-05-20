@@ -2,7 +2,7 @@ Wireless Documentation
 ======================
 
 This section collects the NXP wireless release notes and user manuals that are
-currently provided with ZSDK.
+currently provided with NXP Zephyr downstream.
 
 .. toctree::
    :maxdepth: 1
