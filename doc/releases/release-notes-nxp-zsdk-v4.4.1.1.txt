@@ -1,0 +1,73 @@
+NXP Zephyr project v4.4.1.1 Release Notes
+=============================
+
+The nxp-zsdk provides a NXP Zephyr Downstream for NXP SOCs.
+
+How to get the code
+===================
+
+The git tag for this release is "nxp-v4.4.1.1".  See the ZSDK Getting Started at
+https://github.com/nxp-zephyr/nxp-zsdk/tree/main/doc/Getting-Started.md.  The
+West init command is as follows:
+
+ $ west init -m https://github.com/nxp-zephyr/nxp-zsdk.git --mr nxp-v4.4.1.1
+
+Then, run:
+ $ west update
+ $ west zephyr-export
+
+Release Highlights
+==================
+
+Aligned with Zephyr Project v4.4-branch
+
+Zephyr Project sync to upstream tag: v4.4.1
+
+nxp-zephyr Change Log
+=====================
+Following Changes have been applied on top of the Zephyr v4.4.1 release:
+
+Base Enablement
+===============
+
+- Fixed SCTimer PWM driver to guard the counter start
+- RW612: Fixed spurious PM3 wake by pulling AON wakeup pads to inactive level
+
+BLE support
+============
+
+New in this release:
+- Added HW info UID support for MCXW7x (fixes BLE Mesh issues)
+- Fixed unaligned access faults in shared memory for MCXW23 (fixes BLE Mesh usage faults)
+- Fixed Mesh provisioning on MCXW23
+
+Previously introduced (documented in this release):
+- Added Radio Max TX Power configuration for MCXW family
+- Added dynamic TX power configuration support in HCI for MCXW family
+
+Wi-Fi support
+=============
+
+- Fixed RW612 BT HCI core stuck issue by updating firmware to p36
+- Fixed Wi-Fi WPA2/WPA3 connection failure in TFM (non-secure world) configuration
+- Fixed infinite loop of EVENT_SCAN_RESULTS when quickly disconnecting after connect
+
+OpenThread Support
+==================
+
+- Added support for DNS Private Resource Record types (RFC 6895) enabling
+  queries with type codes 65280-65534 for Thread Border Router
+- Fixed bad IPv6 checksum (0xffff) when forwarding outbound UDP/TCP packets
+  on Ethernet backbone interface with hardware checksum offload
+- Enabled DNS queries to be sent to multiple DNS servers concurrently for
+  Zephyr OpenThread Border Router application
+- Enabled TCP and DNS over TCP support for Thread 1.4 certification
+
+TF-M / mbedTLS / Crypto
+=======================
+- Fixed hardfault during ITS region creation in TFM + IPED configuration on RW61x
+- Fixed PSRAM/MPU faults by adding missing NS regions and SAU config (FRDM‑RW612).
+- Added PSA crypto driver support for MCXW23x device
+
+EdgeLock 2GO support
+====================
