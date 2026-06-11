@@ -1,0 +1,59 @@
+NXP Zephyr project v4.3.0.1 Release Notes
+=============================
+
+The nxp-zsdk provides a NXP Zephyr Downstream for NXP SOCs.
+
+How to get the code
+===================
+
+The git tag for this release is "nxp-v4.3.0.1".  See the ZSDK Getting Started at
+https://github.com/nxp-zephyr/nxp-zsdk/tree/main/doc/Getting-Started.md.  The
+West init command is as follows:
+
+ $ west init -m https://github.com/nxp-zephyr/nxp-zsdk.git --mr nxp-v4.3.0.1
+
+Then, run:
+ $ west update
+ $ west zephyr-export
+
+Release Highlights
+==================
+
+Aligned with Zephyr Project v4.3-branch
+
+Zephyr Project sync to upstream tag: v4.3.0
+
+nxp-zephyr Change Log
+=====================
+
+Following changes have been applied on top of the nxp-v4.3.0.0 release:
+
+Base Enablement
+===============
+
+Backport the below PR's per request
+- https://github.com/zephyrproject-rtos/zephyr/pull/100187
+- https://github.com/zephyrproject-rtos/zephyr/pull/100973
+
+BLE support
+============
+
+Wi-Fi support
+=============
+
+OpenThread Support
+==================
+
+TF-M / mbedTLS / Crypto
+=======================
+
+RT1180:
+- The runtime firmware used by the S400 PSA driver has been updated to version v1.1.1-61a57385
+- The remaining firmware variants for this version can be found at https://github.com/nxp-mcuxpresso/mcux-edgelock
+  on the zsdk_4.3.0.1 branch
+
+
+FreeMASTER support
+====================
+
+
