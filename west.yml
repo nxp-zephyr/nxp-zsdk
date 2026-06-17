@@ -44,7 +44,7 @@ manifest:
   projects:
     - name: zephyr
       repo-path: nxp-zephyr
-      revision: 7bbd4b34c39eaf33c7cdba4c0a1dd0e206b1b3ff
+      revision: 22d9e51116ed9b9899da9182a9afdda6fd3dd95a
       import:
         #
         # ZSDK imports the contents of nxp-zephyr/west.yml at the above
@@ -107,7 +107,7 @@ manifest:
     # added modules
     #
     - name: hal_nxp
-      revision: 9120ddc21af473b3b4889dbc4d26bef6196625a8
+      revision: de204a40eaa2e72b525635846b49ae6cf2ddc781
       path: modules/hal/nxp
       groups:
         - hal
@@ -128,14 +128,14 @@ manifest:
     - name: psa_crypto_driver
       remote: nxp
       repo-path: psa_crypto_driver
-      revision: 54518163c46c5a63b00ea416f2660139e91d9841
+      revision: b5c0f4834e908d7d3d3cb746b1a31352042803c9
       path: modules/crypto/psa_crypto_driver
       groups:
         - crypto
     - name: tf-psa-crypto
       remote: nxp-mcuxpresso
       repo-path: tf-psa-crypto
-      revision: 57f30a31b01d2d4094b1509156b9ad910ec999ec
+      revision: 413cbad94b15ea819cbaf12f9c26e94e3f0e9aa5
       path: modules/crypto/tf-psa-crypto
       groups:
         - crypto
