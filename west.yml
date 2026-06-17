@@ -107,7 +107,7 @@ manifest:
     # added modules
     #
     - name: hal_nxp
-      revision: de204a40eaa2e72b525635846b49ae6cf2ddc781
+      revision: c71957c8cb7d73e7ece4756a480d3a04c9764c5d
       path: modules/hal/nxp
       groups:
         - hal
@@ -123,6 +123,13 @@ manifest:
       repo-path: sgi_pkc
       revision: 28d6f94ea75f602ed3847ed02e37874c70bcd743
       path: modules/crypto/sgi_pkc
+      groups:
+        - crypto
+    - name: secure-subsystem
+      remote: nxp-mcuxpresso
+      repo-path: mcux-secure-subsystem
+      revision: 0db626f9fe509c6de22b51d1866b21dbc2fcdb2b
+      path: modules/crypto/secure-subsystem
       groups:
         - crypto
     - name: psa_crypto_driver
