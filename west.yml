@@ -44,7 +44,7 @@ manifest:
   projects:
     - name: zephyr
       repo-path: nxp-zephyr
-      revision: bf7ac34a7d0155dc18881153e4eea4cd1a3d623d
+      revision: 855a25d66d7d66199098d5f012f1e3a60dd16aea
       import:
         #
         # ZSDK imports the contents of nxp-zephyr/west.yml at the above
@@ -156,7 +156,7 @@ manifest:
     - name: trusted-firmware-m
       remote: nxp
       repo-path: nxp_tf-m
-      revision: 357d3b50a36db2e4bc8dffdabf00d43eb62a02a3
+      revision: 17d8e681c0e885fbfd8fc0f7c1d596b0a48e4828
       path: modules/tee/tf-m/trusted-firmware-m
       groups:
         - tee
