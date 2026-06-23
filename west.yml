@@ -59,6 +59,7 @@ manifest:
           - TraceRecorderSource
           - canopennode
           - chre
+          - dhara
           - cmsis
           - cmsis-dsp
           - cmsis-nn
