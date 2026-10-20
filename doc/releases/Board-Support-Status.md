@@ -18,6 +18,9 @@ NXP is committed to providing comprehensive and high-quality board support for Z
 |-----------------------------------|--------------------------------------------------------------------------------------|-------------
 | frdm_imx91                        | In Development                                                                       |   Tier 1   |
 | frdm_imx93                        | In Development                                                                       |   Tier 1   |
+| frdm_imxrt1152                    | In Development                                                                       |   Tier 1   |
+| frdm_imxrt1186                    | In Development                                                                       |   Tier 1   |
+| frdm_imxrt700                     | In Development                                                                       |   Tier 1   |
 | frdm_k22f                         | All Planned Features                                                                 |   Tier 2   |
 | frdm_k32l2b3                      | All Planned Features                                                                 |   Tier 2   |
 | frdm_k64f                         | All Planned Features                                                                 |   Tier 1   |
@@ -28,19 +31,22 @@ NXP is committed to providing comprehensive and high-quality board support for Z
 | frdm_ke17z512                     | All Planned Features                                                                 |   Tier 1   |
 | frdm_kl25z                        | All Planned Features                                                                 |   Tier 1   |
 | frdm_kw41z                        | All Planned Features                                                                 |   Tier 3   |
-| frdm_mcxa153                      | In Development                                                                       |   Tier 1   |
-| frdm_mcxa156                      | In Development                                                                       |   Tier 1   |
+| frdm_mcxa153                      | All Planned Features                                                                 |   Tier 1   |
+| frdm_mcxa156                      | All Planned Features                                                                 |   Tier 1   |
 | frdm_mcxa266                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxa344                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxa346                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxa366                      | In Development                                                                       |   Tier 1   |
+| frdm_mcxa577                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxc242                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxc444                      | All Planned Features                                                                 |   Tier 1   |
-| frdm_mcxe247                      | In Development                                                                       |   Tier 1   |
+| frdm_mcxe247                      | All Planned Features                                                                 |   Tier 1   |
 | frdm_mcxe31b                      | In Development                                                                       |   Tier 1   |
+| frdm_mcxl255                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxn236                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxn947                      | In Development                                                                       |   Tier 1   |
 | frdm_mcxw23                       | In Development                                                                       |   Tier 1   |
+| frdm_mcxw70                       | In Development                                                                       |   Tier 1   |
 | frdm_mcxw71                       | All Planned Features                                                                 |   Tier 2   |
 | frdm_mcxw72                       | In Development                                                                       |   Tier 1   |
 | frdm_rw612                        | All Planned Features                                                                 |   Tier 1   |
@@ -51,12 +57,13 @@ NXP is committed to providing comprehensive and high-quality board support for Z
 | imx8qm_mek                        | All Planned Features                                                                 |   Tier 3   |
 | imx8qxp_mek                       | All Planned Features                                                                 |   Tier 3   |
 | imx8ulp_evk                       | All Planned Features                                                                 |   Tier 3   |
-| imx91_evk                         | In Development                                                                       |   Tier 2   |
-| imx91_qsb                         | In Development                                                                       |   Tier 2   |
-| imx93_evk                         | In Development                                                                       |   Tier 2   |
-| imx943_evk                        | In Development                                                                       |   Tier 2   |
+| imx91_evk                         | All Planned Features                                                                 |   Tier 2   |
+| imx91_qsb                         | All Planned Features                                                                 |   Tier 2   |
+| imx93_evk                         | All Planned Features                                                                 |   Tier 2   |
+| imx943_evk                        | All Planned Features                                                                 |   Tier 2   |
 | imx95_evk                         | In Development                                                                       |   Tier 1   |
-| imx95_evk_15x15                   | In Development                                                                       |   Tier 2   |
+| imx95_evk_15x15                   | All Planned Features                                                                 |   Tier 2   |
+| imx952_evk                        | In Development                                                                       |   Tier 1   |
 | lpcxpresso11u68                   | All Planned Features                                                                 |   Tier 3   |
 | lpcxpresso51u68                   | All Planned Features                                                                 |   Tier 2   |
 | lpcxpresso54114                   | All Planned Features                                                                 |   Tier 2   |
@@ -66,10 +73,10 @@ NXP is committed to providing comprehensive and high-quality board support for Z
 | lpcxpresso55s36                   | All Planned Features                                                                 |   Tier 2   |
 | lpcxpresso55s69                   | All Planned Features                                                                 |   Tier 1   |
 | ls1046ardb                        | All Planned Features                                                                 |   Tier 2   |
-| mcx_n5xx_evk                      | In Development                                                                       |   Tier 2   |
-| mcx_n9xx_evk                      | In Development                                                                       |   Tier 2   |
-| mcxw23_evk                        | In Development                                                                       |   Tier 3   |
-| mcxw72_evk                        | In Development                                                                       |   Tier 3   |
+| mcx_n5xx_evk                      | All Planned Features                                                                 |   Tier 2   |
+| mcx_n9xx_evk                      | All Planned Features                                                                 |   Tier 2   |
+| mcxw23_evk                        | All Planned Features                                                                 |   Tier 3   |
+| mcxw72_evk                        | All Planned Features                                                                 |   Tier 3   |
 | mimxrt1010_evk                    | All Planned Features                                                                 |   Tier 1   |
 | mimxrt1015_evk                    | All Planned Features                                                                 |   Tier 2   |
 | mimxrt1020_evk                    | All Planned Features                                                                 |   Tier 1   |
